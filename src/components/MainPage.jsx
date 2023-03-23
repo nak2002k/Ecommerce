@@ -1,0 +1,689 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+const mainpage = (
+    <div> <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'/>
+    <div id="wrapper">
+        <marquee><h3 class="lol">Everything @99₹ Today!!</h3></marquee>
+    <div class="cart-icon-top">
+    </div>
+    
+    <div class="cart-icon-bottom">
+    </div>
+    
+    <div id="checkout">
+        <button class="lompa"><a href="Completed.jsx">Checkout</a></button>
+    </div>
+    
+    
+    
+    <div id="header">	
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">BRANDS</a></li>
+            <li><a href="">DESIGNERS</a></li>                                             
+        </ul>		
+    </div>
+    <div id="sidebar">
+        <h3>CART</h3>
+        <div id="cart">
+            <span class="empty">No items in cart.</span>       
+        </div>
+        
+        <h3>CATEGORIES</h3>
+        <div class="checklist categories">
+            <ul>
+                <li><a href=""><span></span>New </a></li>
+                <li><a href=""><span></span>Accesories</a></li>
+                <li><a href=""><span></span>Monitors</a></li>
+                <li><a href=""><span></span>Headphones</a></li>
+                <li><a href=""><span></span>Combos</a></li>
+                <li><a href=""><span></span>Zero power</a></li>
+                <li><a href=""><span></span>Printer</a></li>
+                <li><a href=""><span></span>Mouse</a></li>
+                <li><a href=""><span></span>Keyboards</a></li>
+                <li><a href=""><span></span>Phones</a></li>
+            </ul>
+        </div>
+        
+        
+        <h3></h3>
+        <div class="checklist sizes">
+                </div>
+        
+    
+    
+    <div id="grid-selector">
+           <div id="grid-menu">
+                  View:
+               <ul>           	   
+                   <li class="largeGrid"><a href=""></a></li>
+                   <li class="smallGrid"><a class="active" href=""></a></li>
+               </ul>
+           </div>
+           
+          
+    </div>
+    
+    <div id="grid">
+        <div class="product">
+            <div class="info-large">
+                <h4>Gaming Combo</h4>
+                <div class="sku">
+                    Keyboard,Mouse and Headphones! <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>999₹</span> 799₹
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"><span></span></a></li>
+                        <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                        <li><a href="" style="background:#f56060"><span></span></a></li>
+                        <li><a href="" style="background:#44c28d"><span></span></a></li>
+                    </ul> 
+                </div>
+                <button class="add-cart-large">Add To Cart</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="https://img.freepik.com/premium-photo/headphones-mouse-keyboard-blue-background-top-view-gamer-background_245974-1537.jpg?w=740" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Add to cart</div>
+                    <div class="view_gallery">View gallery</div>                
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">799₹</span>
+                            <span class="product_name">Gaming combo</span>    
+                            <p>Keyboard,Mouse and Headphones!</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-blue"><span></span></div>
+                                <div class="c-red"><span></span></div>
+                                <div class="c-white"><span></span></div>
+                                <div class="c-green"><span></span></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="https://img.freepik.com/premium-photo/headphones-mouse-keyboard-blue-background-top-view-gamer-background_245974-1537.jpg?w=740" alt="" /></li>
+                            <li><img src="https://img.freepik.com/premium-photo/black-mouse-keyboard-headphones-are-isolated-red-background_245974-1703.jpg?w=1380" alt="" height=" 519px" width="347px" /></li>
+                            <li><img src="https://img.freepik.com/premium-photo/workspace-with-keyboard-mouse-orange-background-copyspace_245974-1697.jpg?w=1380" height=" 519px" width="347px" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>Printer</h4>
+                <div class="sku">
+                    Inkjet <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>9999₹</span> 6999₹
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"><span></span></a></li>
+                        <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                        <li><a href="" style="background:#f56060"><span></span></a></li>
+                        <li><a href="" style="background:#44c28d"><span></span></a></li>
+                    </ul> 
+                </div>
+    
+    
+    
+                <button class="add-cart-large">Add To Cart</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="https://cdn.pixabay.com/photo/2013/07/12/15/23/laser-printer-149815_960_720.png" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Add to cart</div>
+                    <div class="view_gallery">View gallery</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">6999₹</span>
+                            <span class="product_name">Printer</span>    
+                            <p>Inkjet</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>SIZES</strong>
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-blue"><span></span></div>
+                                <div class="c-red"><span></span></div>
+                                <div class="c-white"><span></span></div>
+                                <div class="c-green"><span></span></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="https://cdn.pixabay.com/photo/2013/07/12/15/23/laser-printer-149815_960_720.png" alt="" /></li>
+                            <li><img src="https://cdn.pixabay.com/photo/2013/07/13/12/19/printer-159612_960_720.png" height=" 519px" width="347px" alt="" /></li>
+                            <li><img src="https://cdn.pixabay.com/photo/2013/07/13/12/10/print-159336_960_720.png" height=" 519px" width="347px" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>Mouse</h4>
+                <div class="sku">
+                    Gaming Sensor <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>299₹</span> 99₹
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"><span></span></a></li>
+                        <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                        <li><a href="" style="background:#f56060"><span></span></a></li>
+                        <li><a href="" style="background:#44c28d"><span></span></a></li>
+                    </ul> 
+                </div>
+    
+                
+                <button class="add-cart-large">Add To Cart</button>                          
+                             
+            </div>
+            <div class="make3D">        
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="https://cdn.pixabay.com/photo/2013/07/13/12/17/mouse-159568_960_720.png" height=" 519px" width="347px" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Add to cart</div>
+                    <div class="view_gallery">View gallery</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">99₹</span>
+                            <span class="product_name">Mouse</span>    
+                            <p>Gaming sensor</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-blue"><span></span></div>
+                                <div class="c-red"><span></span></div>
+                                <div class="c-white"><span></span></div>
+                                <div class="c-green"><span></span></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="https://cdn.pixabay.com/photo/2013/07/13/12/17/mouse-159568_960_720.png" height=" 400px" width="347px" alt="" /></li>
+                            <li><img src="https://cdn.pixabay.com/photo/2013/07/12/17/41/computer-mouse-152249_960_720.png" height=" 519px" width="347px" alt="" /></li>
+                            <li><img src="https://cdn.pixabay.com/photo/2013/07/12/14/53/mouse-148949_960_720.png" height=" 400px" width="347px" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>Gamepad</h4>
+                <div class="sku">
+                    Sony PS5 <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>5000₹</span> 3000₹
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"><span></span></a></li>
+                        <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                        <li><a href="" style="background:#f56060"><span></span></a></li>
+                        <li><a href="" style="background:#44c28d"><span></span></a></li>
+                    </ul> 
+                </div>
+    
+                
+                <button class="add-cart-large">Add To Cart</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="https://cdn.pixabay.com/photo/2013/07/12/12/32/controller-145875_960_720.png" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Add to cart</div>
+                    <div class="view_gallery">View gallery</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">3000₹</span>
+                            <span class="product_name">Gamepad</span>    
+                            <p>Sony PS5</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-blue"><span></span></div>
+                                <div class="c-red"><span></span></div>
+                                <div class="c-white"><span></span></div>
+                                <div class="c-green"><span></span></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="https://cdn.pixabay.com/photo/2013/07/12/12/32/controller-145875_960_720.png" alt="" /></li>
+                            <li><img src="https://media.istockphoto.com/id/1248994605/vector/glowing-neon-line-gamepad-icon-isolated-on-black-background-game-controller-vector.jpg?s=1024x1024&w=is&k=20&c=TEXLads9ghjk_d4NFN1Woz7U0vG1u9fKSAF0NA01sqQ=" height=" 519px" width="347px" alt="" /></li>
+                            <li><img src="https://media.istockphoto.com/id/1208386205/vector/joystick-flat-icon-playing-online-gamepad-cartoon-icon-game-controller.jpg?s=1024x1024&w=is&k=20&c=NkJH_7Z3aqZSXCOAJZAoEhBMK79FR7oRNy8vwhTN6FI=" height=" 519px" width="347px" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>Gaming Keyboard</h4>
+                <div class="sku">
+                    Mechanical Keyboard <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>4000₹</span> 800₹
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"><span></span></a></li>
+                        <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                        <li><a href="" style="background:#f56060"><span></span></a></li>
+                        <li><a href="" style="background:#44c28d"><span></span></a></li>
+                    </ul> 
+                </div>
+    
+                
+                <button class="add-cart-large">Add To Cart</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="https://cdn.pixabay.com/photo/2022/03/25/02/26/keyboard-7090158_960_720.jpg" height=" 519px" width="347px" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Add to cart</div>
+                    <div class="view_gallery">View gallery</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">800₹</span>
+                            <span class="product_name">Gaming Keyboard</span>    
+                            <p>Mechanical Keyboard</p>                                            
+                            
+                            <div class="product-options">
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="https://cdn.pixabay.com/photo/2022/03/25/02/26/keyboard-7090158_960_720.jpg" height=" 519px" width="347px" alt="" /></li>
+                            <li><img src="https://media.istockphoto.com/id/1396231106/photo/gaming-keyboard-with-backlight.jpg?s=1024x1024&w=is&k=20&c=nDv4zp07H7zLvsFkfQjzBbuu6C3B49cKZrXLpkQq0ds=" height=" 519px" width="347px" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>Blue light filter</h4>
+                <div class="sku">
+                    Zero power glasses <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>1100₹</span> 900₹
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"><span></span></a></li>
+                        <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                        <li><a href="" style="background:#9b887b"><span></span></a></li>
+                        <li><a href="" style="background:#44c28d"><span></span></a></li>
+                    </ul> 
+                </div>
+    
+    
+                
+                <button class="add-cart-large">Add To Cart</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="https://cdn.pixabay.com/photo/2018/01/23/10/38/book-3101151_960_720.jpg" height=" 519px" width="347px" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Add to cart</div>
+                    <div class="view_gallery">View gallery</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">900₹</span>
+                            <span class="product_name">Blue light filter</span>    
+                            <p>Zero power glasses</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-blue"><span></span></div>
+                                <div class="c-red"><span></span></div>
+                                <div class="c-white"><span></span></div>
+                                <div class="c-green"><span></span></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="https://cdn.pixabay.com/photo/2018/01/23/10/38/book-3101151_960_720.jpg"  height=" 519px" width="347px"alt="" /></li>
+                            <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2sdf45657/7.jpg" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>Zero power glasses</h4>
+                <div class="sku">
+                    Blue light filter <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>900₹</span> 500₹
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"><span></span></a></li>
+                        <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                        <li><a href="" style="background:#9b887b"><span></span></a></li>
+                        <li><a href="" style="background:#44c28d"><span></span></a></li>
+                    </ul> 
+                </div>
+    
+                
+                <button class="add-cart-large">Add To Cart</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="https://cdn.pixabay.com/photo/2017/08/06/06/00/eyeglass-2589290_960_720.jpg"  height=" 519px" width="347px" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Add to cart</div>
+                    <div class="view_gallery">View gallery</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price">500₹</span>
+                            <span class="product_name">Zero power glasses</span>    
+                            <p>Blue light filter</p>                                            
+                            
+                            <div class="product-options">
+    
+                            <div class="colors">
+                                <div class="c-blue"><span></span></div>
+                                <div class="c-red"><span></span></div>
+                                <div class="c-white"><span></span></div>
+                                <div class="c-green"><span></span></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="https://cdn.pixabay.com/photo/2017/08/06/06/00/eyeglass-2589290_960_720.jpg"  height=" 519px" width="347px" alt="" /></li>
+                            <li><img src="https://cdn.pixabay.com/photo/2015/11/19/21/14/glasses-1052023_960_720.jpg" height=" 519px" width="347px" alt="" /></li>
+                            <li><img src="https://s3-us-west-2.amazonaws.com/s.cdfgdpn.io/245657/4.jpg" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>
+        
+        <div class="product">
+        <div class="info-large">
+                <h4>Iphone</h4>
+                <div class="sku">
+                    15 series <strong>89356</strong>
+                </div>
+                 
+                <div class="price-big">
+                    <span>9000₹</span> 5000₹
+                </div>
+                 
+                <h3>COLORS</h3>
+                <div class="colors-large">
+                    <ul>
+                        <li><a href="" style="background:#222"><span></span></a></li>
+                        <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                        <li><a href="" style="background:#9b887b"><span></span></a></li>
+                        <li><a href="" style="background:#44c28d"><span></span></a></li>
+                    </ul> 
+                </div>
+    
+                <button class="add-cart-large">Add To Cart</button>                          
+                             
+            </div>
+            <div class="make3D">
+                <div class="product-front">
+                    <div class="shadow"></div>
+                    <img src="https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height=" 519px" width="347px" alt="" />
+                    <div class="image_overlay"></div>
+                    <div class="add_to_cart">Add to cart</div>
+                    <div class="view_gallery">View gallery</div>
+                    <div class="stats">        	
+                        <div class="stats-container">
+                            <span class="product_price"> 5000₹</span>
+                            <span class="product_name">Iphone</span>    
+                            <p>15 series</p>                                            
+                            
+                            <div class="product-options">
+                            <strong>COLORS</strong>
+                            <div class="colors">
+                                <div class="c-blue"><span></span></div>
+                                <div class="c-red"><span></span></div>
+                                <div class="c-white"><span></span></div>
+                                <div class="c-green"><span></span></div>
+                            </div>
+                        </div>                       
+                        </div>                         
+                    </div>
+                </div>
+                
+                <div class="product-back">
+                    <div class="shadow"></div>
+                    <div class="carousel">
+                        <ul class="carousel-container">
+                            <li><img src="https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height=" 519px" width="347px"alt="" /></li>
+                            <li><img src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height=" 519px" width="347px" alt="" /></li>
+                        </ul>
+                        <div class="arrows-perspective">
+                            <div class="carouselPrev">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                            <div class="carouselNext">
+                                <div class="y"></div>
+                                <div class="x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="cy"></div>
+                        <div class="cx"></div>
+                    </div>
+                </div>	  
+            </div>	
+        </div>    
+    </div>
+    </div></div>
+    </div>
+  );
+  
+  ReactDOM.render(mainpage, document.getElementById('root'));
